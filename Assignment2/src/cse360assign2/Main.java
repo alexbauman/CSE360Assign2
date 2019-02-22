@@ -28,7 +28,7 @@ public class Main {
 					calc.divide(sc.nextInt());
 					System.out.println("Total: " + calc.getTotal());
 					break;
-			case 5: calc.getHistory();
+			case 5: System.out.println(calc.getHistory());
 					break;
 			case 6: System.out.println("Total: " + calc.getTotal());
 					break;
