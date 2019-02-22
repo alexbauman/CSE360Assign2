@@ -14,19 +14,23 @@ public class Main {
 			switch(op) {
 			case 1: System.out.println("Enter an integer to add");
 					calc.add(sc.nextInt());
+					System.out.println("Total: " + calc.getTotal());
 					break;
 			case 2: System.out.println("Enter an integer to subtract");
 					calc.subtract(sc.nextInt());
+					System.out.println("Total: " + calc.getTotal());
 					break;
 			case 3: System.out.println("Enter an integer to multiply");
 					calc.multiply(sc.nextInt());
+					System.out.println("Total: " + calc.getTotal());
 					break;
 			case 4: System.out.println("Enter an integer to divide");
 					calc.divide(sc.nextInt());
+					System.out.println("Total: " + calc.getTotal());
 					break;
 			case 5: calc.getHistory();
 					break;
-			case 6: calc.getTotal();
+			case 6: System.out.println("Total: " + calc.getTotal());
 					break;
 			default: break;
 			}
